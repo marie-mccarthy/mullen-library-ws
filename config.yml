@@ -6,10 +6,10 @@ database:
   user: root
 
   # the password
-  password: GWCMullen
+  #password:
 
   # the JDBC URL
-  url: jdbc:mysql://localhost:3306/test_library
+  url: jdbc:mysql://localhost:3306/
 
   # any properties specific to your JDBC driver:
   properties:
