@@ -13,7 +13,7 @@ public class BookMapper implements ResultSetMapper<Book>
 	@Override
 	public Book map(int i, ResultSet resultSet, StatementContext ctx) throws SQLException {
 		// TODO Auto-generated method stub
-		return new Book(resultSet.getString("author"), resultSet.getString("title"), resultSet.getInt("book_id"));
+		return new Book(resultSet.getString("author"), resultSet.getString("title"), resultSet.getInt("book_id"), resultSet.getString("image_link"));
 		 
 	}
 
